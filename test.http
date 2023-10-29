@@ -1,0 +1,20 @@
+### Get all customers
+GET http://localhost:3000/customers
+
+### Create a new customer
+POST http://localhost:3000/customers
+Content-Type: application/json
+
+{
+  "firstname": "John",
+  "lastname": "Doe"
+}
+
+### Create another customer
+POST http://localhost:3000/customers
+Content-Type: application/json
+
+{
+  "firstname": "Jane",
+  "lastname": "Smith"
+}
